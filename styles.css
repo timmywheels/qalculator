@@ -5,10 +5,11 @@ body{
 
 h1 {
   color: #454545;
+  text-align: center;
 }
 
 #calculator{
-  width: 250px;
+  width: 235px;
   display: block;
   margin: 0 auto;
   border: 1px solid #333;
