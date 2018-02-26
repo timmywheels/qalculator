@@ -9,24 +9,30 @@ h1 {
 }
 
 #calculator{
-  width: 235px;
+  width: 260px;
   display: block;
   margin: 0 auto;
-  border: 1px solid #333;
-  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  border-bottom: 8px solid #ccc;
+  padding: 20px;
 }
 
 #screen{
   height: 50px;
   background: #fff;
   margin-bottom: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
 }
 
 .row{
   clear: both;
 }
 
-
+.num:hover{
+  
+}
 
 .num,
 .ops,
@@ -35,7 +41,10 @@ h1 {
   width: 50px;
   height: 50px;
   border: 1px solid #ddd;
-  margin: 2.5px;
+  border-bottom: 4px solid #ccc;
+  border-radius: 4px;
+  margin: 5px;
+  outline: none;
   
 }
 
